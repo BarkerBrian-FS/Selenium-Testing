@@ -6,16 +6,17 @@
     "start": "next start",
     "demoTest": "node demo.test.js",
     "demoExternalTest": "node external.test.js",
-    "test" : "jest"
+    "test": "jest"
   },
   "dependencies": {
+    "dotenv": "^16.0.3",
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "selenium-webdriver": "^4.8.1"
+    "selenium-webdriver": "^4.8.2"
   },
   "devDependencies": {
-    "chromedriver": "^110.0.0",
+    "chromedriver": "^112.0.0",
     "jest": "^29.5.0"
   }
 }
